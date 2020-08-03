@@ -2,4 +2,5 @@ theme: jekyll-theme-minimal
 
 title: [React JS]
 description: [a quick guide to learn React-js with projects examples
-logo: [./assets/logo.png]
+
+logo: [https://reactjs.org/logo-og.png]
