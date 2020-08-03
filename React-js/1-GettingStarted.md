@@ -1,6 +1,7 @@
 # Add React to a Website 
 
 1. In terminal
+
 ```
 >> Run npm init -y 
  
@@ -9,6 +10,7 @@
 ```
 
 2. In the html file we add
+
 ```
     <!-- ... React container -->
     <div id="root"></div>
@@ -24,7 +26,7 @@
 ```
 
 3. Create folder in the project directory “src”
-4. . Create main.js in the src folder and add the following
+4. Create main.js in the src folder and add the following
 
 ```
 var app = <div>Hello React World!</div>
@@ -35,6 +37,7 @@ ReactDOM.render(app, root)
 ```
 
 5. In the terminal
+   
 ```
 >> npx babel --watch src --out-dir . --presets react-app/prod
 ```
@@ -50,6 +53,7 @@ for more details check [create a new react app](https://reactjs.org/docs/create-
 If you’re learning React or creating a new single-page app, use Create React App.
 
 ### In terminal
+
 ```
 >> npm i create-react-app -g
 >> npx create-react-app my-app
