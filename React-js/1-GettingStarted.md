@@ -9,6 +9,7 @@
 ```
 
 2. In the html file we add
+```
     <!-- ... React container -->
     <div id="root"></div>
  
@@ -20,10 +21,10 @@
     <!-- Load our React component. -->
     <script src="main.js"></script>
 </body>
+```
 
 3. Create folder in the project directory “src”
-
-4. Create main.js in the src folder and add the following
+4. . Create main.js in the src folder and add the following
 
 ```
 var app = <div>Hello React World!</div>
