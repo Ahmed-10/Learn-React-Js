@@ -60,3 +60,7 @@ If you’re learning React or creating a new single-page app, use Create React A
 >> cd my-app
 >> npm start
 ```
+---
+previous: [Index](../README.md)
+
+Next: [JSX extension](JSX_Syntax.md)
