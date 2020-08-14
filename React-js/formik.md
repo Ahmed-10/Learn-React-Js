@@ -387,11 +387,8 @@ function SignUpForm() {
           selectDrop: "1",
           checkBox: false,
           selectOne: "",
-          subForm: [
-            {
-              name: "",
-              phone: ""
-        }]}}
+          subForm: [{name: "", phone: ""}]
+        }}
         
         onSubmit={ onsubmit }
 
