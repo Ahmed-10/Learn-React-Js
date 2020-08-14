@@ -147,4 +147,4 @@ class ResetPassword extends React.Component {
 ---
 previous: [React Components](ReactComponent.md)
 
-Next: []()
+Next: [Component with State](StatefulComponent.md)
