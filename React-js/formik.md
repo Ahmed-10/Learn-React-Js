@@ -274,7 +274,7 @@ function SignUpForm() {
           nestedObject: {
             fieldOne: "",
             fieldTwo: ""
-          }}}
+        }}}
         
         onSubmit={ onsubmit }
 
@@ -399,17 +399,16 @@ function SignUpForm() {
           selectDrop: "1",
           checkBox: false,
           selectOne: "",
-          nestedObject: {
-            fieldOne: "",
-            fieldTwo: ""
-          },
           subForm: [
             {
               name: "",
               phone: ""
             }
-          ]
-        }}
+          ],
+          nestedObject: {
+            fieldOne: "",
+            fieldTwo: ""
+        }}}
         
         onSubmit={ onsubmit }
 
