@@ -405,6 +405,9 @@ function SignUpForm() {
 export default SignUpForm;
 
 ```
+
+there's a square bracket missing from the last example at `function SignUpForm()` the three curly brackets `}}}` should be `}]}}`
+
 ---
 
 previous: [forms](form.md)
