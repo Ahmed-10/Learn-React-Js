@@ -307,10 +307,6 @@ function schema(){
     name: Yup.string().min(2, 'Too Short!').max(50, 'Too Long!').required('Required'),
     mail: Yup.string().email('Invalid email').required('Required'),
     selectOne: Yup.string().required('choose is Required'),
-    nestedObject : Yup.object().shape({
-      fieldOne: Yup.string().required(),
-      fieldTwo: Yup.string().required()
-    }),
     subForm: Yup.array().of(
       Yup.object().shape({
         name: Yup.string().min(2, 'Too Short!').max(50, 'Too Long!').required('Required'),
@@ -347,14 +343,6 @@ const form = (props) => {
       <Field name="selectOne" type="radio" value="1"/> option 1 <br/>
       <Field name="selectOne" type="radio" value="2"/> option 2 <br/>
       <ErrorMessage name="selectOne" /> <br/>
-
-      <label>Nested Field One </label>
-      <Field name="nestedObject.fieldOne"/><br/>
-      <ErrorMessage name="nestedObject.fieldOne" /> <br/>
-
-      <label>Nested Field Two </label>
-      <Field name="nestedObject.fieldTwo"/><br/>
-      <ErrorMessage name="nestedObject.fieldTwo" /> <br/>
 
       <FieldArray 
         name="subForm"
@@ -403,12 +391,7 @@ function SignUpForm() {
             {
               name: "",
               phone: ""
-            }
-          ],
-          nestedObject: {
-            fieldOne: "",
-            fieldTwo: ""
-        }}}
+        }]}}
         
         onSubmit={ onsubmit }
 
@@ -420,6 +403,7 @@ function SignUpForm() {
 }
 
 export default SignUpForm;
+
 ```
 ---
 
