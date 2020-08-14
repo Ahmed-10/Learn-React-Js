@@ -12,3 +12,4 @@ React is an Open Source view library created and maintained by Facebook. It's a 
 5. [Component with State](React-js/StatefulComponent.md)
 6. [Component life cycle](React-js/lifeCycle.md)
 7. [forms](React-js/form.md)
+8. [Using FORMIK with React js](React-js/formik.md)
