@@ -274,8 +274,7 @@ function SignUpForm() {
           nestedObject: {
             fieldOne: "",
             fieldTwo: ""
-          }
-        }}
+          }}}
         
         onSubmit={ onsubmit }
 
